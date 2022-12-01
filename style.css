@@ -1,48 +1,43 @@
-body, html{
-    height:100%;
-    overflow: hidden;
-}
-
 *{
     box-sizing: border-box;
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     position:relative;
     font-family: 'Ubuntu', sans-serif;
 }
-
-.bg-image{
-    background-image: url(./Aedes_aegypti.jpg);
-    height: 100%;
+.Box{
+    height: 100vh;
+    background-image: url(Aedes_aegypti.jpg);
     background-size: cover;
-    background-position: center;
     background-repeat: no-repeat;
-    filter: blur(3px);
-}
+    background-position: center;
 
-.bg-text{
-    background-color: rgb(0,0,0);
-    background-color: rgba(161, 110, 0, 0) ;
-    color:#fff;
-    font-weight: bold;
-    border: 3px solid #022b13;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    z-index: 2;
-    width: 80%;
-    text-align:left;
-    padding: 20px;
 }
-
 .Inner_Box{
-    max-width: 650px;
+    max-width: 960px;
     position: relative;
     display: block;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    background: rgba(255,255,255,4);
-    box-shadow: 0 15px 20px rgba(0,0,0,2);
+    background: rgba(255,255,255,.4);
+    box-shadow: 0 15px 20px rgba(0,0,0,.2);
+    padding: 30 px;
+    text-align: justify;
+    letter-spacing: 2px;
+}
+.Inner_Box h1{
+    font-size: 45px;
+    color: rgb(43, 66, 2);
+    margin: 10px;
+}
+.Inner_Box h2{
+    font-size: 38px;
+    color:  darkolivegreen;
+    margin: 20px;
+}
+.Inner_Box p{
+    margin: 25px;
+    font-size: 18px;
+    color:  rgb(43, 66, 2);
 }
