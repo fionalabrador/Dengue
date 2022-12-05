@@ -5,14 +5,20 @@
     position:relative;
     font-family: 'Ubuntu', sans-serif;
 }
-.Box{
-    height: 100vh;
-    background-image: url(Images/bgmain.jpg);
+body{
+    background-image: url(bgimagejpg.jpg);
+    overflow-x: hidden;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    z-index: -1;
-   
+}
+.Box{
+    height: 100vh;
+    background-image: url(bgmain.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: blur(3rm);
 
 }
 .container{
@@ -23,9 +29,7 @@
     box-sizing: border-box;
 }
 .navbar{
-    height: 75px;
-    width: 1000px;
-    line-height: 75px;
+    height: 14%;
     display: flex;
     align-items: center;
 }
@@ -51,7 +55,7 @@ nav ul li{
 nav ul li a{
     text-decoration: none;
     color:rgb(4, 46, 7);
-    font-size: 18px;
+    font-size: 25px;
     font-family: 'Roboto Slab', serif;
 }
 nav ul li a.active, nav ul li a:hover{
@@ -61,12 +65,12 @@ nav ul li a.active, nav ul li a:hover{
 .Inner_Box{
     max-width: 960px;
     display: block;
-    top: 40%;
+    top: 38%;
     left: 50%;
     transform: translate(-50%,-50%);
     background: rgba(255, 255, 255, 0.301);
-    box-shadow: 0 15px 20px rgba(4, 10, 6, 0.733);
-    padding: 40 px;
+    box-shadow: 0 15px 20px rgba(0,0,0,.2);
+    padding: 30 px;
     text-align: justify;
     letter-spacing: 2px;
     position: relative;
@@ -83,4 +87,15 @@ nav ul li a.active, nav ul li a:hover{
     font-size: 18px;
     color:  rgb(20, 26, 11);
     font-family: 'Roboto Slab', serif;;
+}
+.Inner_Box2 h1{
+    font-weight: 100;
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: darkolivegreen;
+    margin: 20px;
+
+}
+.Home10F{
+    margin: 20px;
 }
