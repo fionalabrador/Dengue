@@ -11,33 +11,76 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    z-index: -1;
+   
 
+}
+.container{
+    width:100%;
+    height: 100vh;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+.navbar{
+    height: 75px;
+    width: 1000px;
+    line-height: 75px;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 175px;
+    height: 85px;
+    cursor: pointer;
+}
+.menu-icon{
+    width: 30px;
+    cursor: pointer;
+    margin-left: 40px;
+}
+nav{
+    flex:1;
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:rgb(4, 46, 7);
+    font-size: 18px;
+    font-family: 'Roboto Slab', serif;
+}
+nav ul li a.active, nav ul li a:hover{
+    color:darkolivegreen;
+    background: #3b574249;
 }
 .Inner_Box{
     max-width: 960px;
-    position: relative;
     display: block;
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%,-50%);
-    background: rgba(255,255,255,.4);
-    box-shadow: 0 15px 20px rgba(0,0,0,.2);
-    padding: 30 px;
+    background: rgba(255, 255, 255, 0.301);
+    box-shadow: 0 15px 20px rgba(4, 10, 6, 0.733);
+    padding: 40 px;
     text-align: justify;
     letter-spacing: 2px;
+    position: relative;
 }
+
 .Inner_Box h1{
-    font-size: 45px;
-    color: rgb(43, 66, 2);
-    margin: 10px;
-}
-.Inner_Box h2{
     font-size: 38px;
-    color:  darkolivegreen;
+    font-family: 'Roboto Slab', serif;
+    color:  rgb(47, 70, 8);
     margin: 20px;
 }
 .Inner_Box p{
     margin: 25px;
     font-size: 18px;
-    color:  rgb(43, 66, 2);
+    color:  rgb(20, 26, 11);
+    font-family: 'Roboto Slab', serif;;
 }
