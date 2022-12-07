@@ -10,14 +10,14 @@
 html,body{
     margin: 0;
     padding: 0;
-    background-image: url('wtrclr.jpg');
+    background-image: url('Images/wtrclr.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 .main-header{
     background-color: rgba(100, 240, 193, 0.6);
-    background-image: url("head2.jpg");
+    background-image: url("Images/head2.jpg");
     background-blend-mode: multiply;
     background-size: cover;
     padding-bottom: 30px;
