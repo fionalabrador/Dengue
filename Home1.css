@@ -1,9 +1,68 @@
-.Home5F{
-    background: #4f4f4f;
-    font-weight: 100;
-    font-size: 35px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: darkolivegreen;
-    margin: 20px;
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&family=Ubuntu:wght@300&display=swap") 
+
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+SC:wght@900&display=swap')
+
+*{
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+    color: rgb(33, 51, 2);
+}
+html,body{
+    margin: 0;
+    padding: 0;
+    background-image: url('wtrclr.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.main-header{
+    background-color: rgba(100, 240, 193, 0.6);
+    background-image: url("head2.jpg");
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-bottom: 30px;
+}
+.band-name{
+    text-align: center;
+    margin: 0;
+    font-size: 2em;
+    font-weight: bolder;
+    font-display: flex;
+    color:rgb(153, 161, 148);
+}
+.band-name-large{
+    font-size: 4em;
+    font-family: 'Alegreya SC', serif;
+    font-weight: bolder;
+}
+.content-section{
+    margin: none;
+    background-color: rgba(110, 105, 96, 0.295);
+    background-blend-mode: color-burn;
 
 }
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+.section-header1{
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Ubuntu', sans-serif;
+    color: rgb(43, 63, 9);
+    text-align: center;
+    font-size: 3em;
+}
+.section-header2{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: normal;
+    color: darkolivegreen;
+    text-align: left;
+    font-size: 2em;
+}
+.image-box{
+    position: relative;
+    align-items: center;
+}
+
+
