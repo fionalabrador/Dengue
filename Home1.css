@@ -10,14 +10,14 @@
 html,body{
     margin: 0;
     padding: 0;
-    background-image: url('Images/wtrclr.jpg');
+    background-image: url(Images/lightgreen.jfif);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 .main-header{
     background-color: rgba(100, 240, 193, 0.6);
-    background-image: url("Images/head2.jpg");
+    background-image: url(Images/header.jpg);
     background-blend-mode: multiply;
     background-size: cover;
     padding-bottom: 30px;
@@ -28,7 +28,7 @@ html,body{
     font-size: 2em;
     font-weight: bolder;
     font-display: flex;
-    color:rgb(153, 161, 148);
+    color:rgba(254, 255, 253, 0.445);
 }
 .band-name-large{
     font-size: 4em;
@@ -37,9 +37,12 @@ html,body{
 }
 .content-section{
     margin: none;
-    background-color: rgba(110, 105, 96, 0.295);
+    background-color: rgba(110, 105, 96, 0.178);
     background-blend-mode: color-burn;
-
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.274);
+    padding: 30 px;
+    text-align: justify;
+    letter-spacing: 2px;
 }
 .container{
     max-width: 900px;
@@ -47,7 +50,6 @@ html,body{
     padding: 0 1.5em;
 }
 .section-header1{
-    font-family: 'Roboto Slab', serif;
     font-family: 'Ubuntu', sans-serif;
     color: rgb(43, 63, 9);
     text-align: center;
@@ -60,9 +62,43 @@ html,body{
     text-align: left;
     font-size: 2em;
 }
+.section-header3{
+    font-family: 'Roboto Slab', serif;
+    color: rgb(20, 78, 20);
+    font-size: 1em;
+}
+.section-paragraph{
+    font-family:'Roboto Slab', serif; 
+    color: rgb(20, 78, 20);
+
+}
 .image-box{
+    width: 100%;
+    height: auto;
+}
+.image-box:hover{
     position: relative;
     align-items: center;
+    border-image: 5%;
+    opacity: 1;
+    -webkit-animation: flash 1.5s;
+    animation: flash 1.5s;
+}
+@-webkit-keyframes flash{
+    0%{
+        opacity:.4;
+    }
+    100%{
+        opacity:1;
+    }
+}
+@keyframes flash{
+    0%{
+        opacity: .4;
+    }
+    100%{
+        opacity: 1;
+    }
 }
 
 
