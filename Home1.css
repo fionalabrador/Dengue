@@ -1,43 +1,40 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&family=Ubuntu:wght@300&display=swap") 
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&family=Ubuntu:wght@300&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Alegreya+SC:wght@900&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+SC:wght@900&display=swap');
 
 *{
     box-sizing: border-box;
-    font-family: 'Ubuntu', sans-serif;
-    color: rgb(33, 51, 2);
+    font-family: 'Ubuntu', sans-serif;    
 }
 html,body{
     margin: 0;
     padding: 0;
-    background-image: url(Images/lightgreen.jfif);
+    background-image: url(Images/home.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 .main-header{
-    background-color: rgba(100, 240, 193, 0.6);
     background-image: url(Images/header.jpg);
     background-blend-mode: multiply;
     background-size: cover;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
 }
 .band-name{
-    text-align: center;
-    margin: 0;
+    text-align: left;
     font-size: 2em;
     font-weight: bolder;
-    font-display: flex;
+    font-display: auto;
     color:rgba(254, 255, 253, 0.445);
 }
 .band-name-large{
-    font-size: 4em;
-    font-family: 'Alegreya SC', serif;
-    font-weight: bolder;
+    font-size: 5em;
+    font-family: 'Rubik Vinyl', cursive;
+    font-weight: 900;
 }
 .content-section{
     margin: none;
-    background-color: rgba(110, 105, 96, 0.178);
+    background-color: rgba(255, 251, 243, 0.603);
     background-blend-mode: color-burn;
     box-shadow: 0 15px 20px rgba(0, 0, 0, 0.274);
     padding: 30 px;
@@ -100,5 +97,3 @@ html,body{
         opacity: 1;
     }
 }
-
-
