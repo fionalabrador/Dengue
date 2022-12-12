@@ -24,7 +24,7 @@
 }
 
 body{
-    background-image: url(bgmain.jpg);
+    background-image: url(Images/bgmain.jpg);
     opacity: 1;
     min-height: 100vh;
     background-color: var(--body-color);
